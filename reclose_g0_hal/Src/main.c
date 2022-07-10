@@ -107,6 +107,9 @@ int main(void)
   while (1)
   {
     HAL_Delay(200);
+    HAL_GPIO_TogglePin(LCM_LEDA_GPIO_Port, LCM_LEDA_Pin);
+
+    
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
